@@ -15,8 +15,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-src_install() {
-	emake DESTDIR="${D}" install
-	#dodoc README CHANGES
-}
