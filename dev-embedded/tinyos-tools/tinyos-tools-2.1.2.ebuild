@@ -15,7 +15,7 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-S="${WORKDIR}/tinyos-main-release_tinyos_`echo ${PV}|sed 's/./_/g'`/tools"
+S="${WORKDIR}/tinyos-main-release_tinyos_${PV//./_}/tools"
 src_configure() {
 	cd "${S}"
 	./Bootstrap
