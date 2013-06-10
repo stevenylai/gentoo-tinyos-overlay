@@ -13,5 +13,5 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND=""
+DEPEND=">=virtual/jdk-1.5"
 RDEPEND="${DEPEND}"
