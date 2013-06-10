@@ -14,4 +14,5 @@ KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=">=virtual/jdk-1.5"
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	>=virtual/jre-1.5"

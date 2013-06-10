@@ -14,7 +14,8 @@ KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	>=dev-embedded/nesc-1.3.4"
 S="${WORKDIR}/tinyos-main-release_tinyos_${PV//./_}/tools"
 src_configure() {
 	cd "${S}"
