@@ -8,7 +8,7 @@ Notes:
 1. I'm currently only testing this with avr and msp430 toolchains.
 2. This overlay only installs tinyos-tools and nesc. The toolchains will be installed via gentoo's crossdev (see instructions below)
 
-Instructions (roughly follows: http://docs.tinyos.net/tinywiki/index.php/Manual_installation_using_RPM_packages ):
+Instructions (roughly following: http://docs.tinyos.net/tinywiki/index.php/Manual_installation_using_RPM_packages ):
 
 1. If you are not just running TOSSIM, install crossdev if you haven't yet: emerge crossdev
 2. Install msp430 toolchain if you are working with msp430-based platform: crossdev --target msp430
