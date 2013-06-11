@@ -4,6 +4,7 @@ getnoo-tinyos-overlay
 TinyOS overlay for Gentoo
 
 Notes:
+
 1. I'm currently only testing this with avr and msp430 toolchains.
 2. This overlay only installs tinyos-tools and nesc. The toolchains will be installed via gentoo's crossdev (see instructions below)
 
